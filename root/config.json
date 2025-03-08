@@ -1,0 +1,12 @@
+{
+    "name": "screen-root",
+    "env": {
+        "base_url": "https://raw.githubusercontent.com/t-i-f/screens-expo/main/root/",
+        "base_path": "app/root"
+    },
+    "commands": [
+        "npx expo install expo-image",
+        "npx @tisf/exe features/gluestack",
+        "npx @tisf/get -f -l 'https://raw.githubusercontent.com/t-i-f/screens-expo/main/root/files.json' -p 'https://raw.githubusercontent.com/t-i-f/screens-expo/main/root/prompts.json'"
+    ]
+}
